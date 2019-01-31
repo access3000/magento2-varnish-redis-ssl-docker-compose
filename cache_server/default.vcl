@@ -13,6 +13,7 @@ backend default {
 
 acl purge {
     "localhost";
+     "apache2";
 }
 
 sub vcl_recv {
