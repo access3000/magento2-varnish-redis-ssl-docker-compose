@@ -6,7 +6,7 @@ container_name=mysql
 
 ## Mention mysql root password
 
-MYSQL_ROOT_PASSWORD=mention_your_mysql_root_password
+MYSQL_ROOT_PASSWORD=mage2
 
 DATE=`date +%F-%H-%M-%S`
 
