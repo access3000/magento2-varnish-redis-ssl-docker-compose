@@ -186,12 +186,12 @@ sub vcl_deliver {
         unset resp.http.Age;
     }
 
-    unset resp.http.X-Magento-Debug;
-    unset resp.http.X-Magento-Tags;
-    unset resp.http.X-Powered-By;
-    unset resp.http.Server;
-    unset resp.http.X-Varnish;
-    unset resp.http.Via;
+    #unset resp.http.X-Magento-Debug;
+    #unset resp.http.X-Magento-Tags;
+    #unset resp.http.X-Powered-By;
+    #unset resp.http.Server;
+    #unset resp.http.X-Varnish;
+    #unset resp.http.Via;
     unset resp.http.Link;
 }
 
